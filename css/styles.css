@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Set the font family and background color for the entire page */
 body {
   font-family: Arial, sans-serif;
@@ -41,7 +47,7 @@ main {
   margin: 20px;
 }
 
-h1, h2 {
+ h2 {
   color: #333;
 }
 
@@ -77,4 +83,59 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+.top {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  right: 22px;
+  bottom: 20px;
+}
+
+.title {
+  position: absolute;
+  color: #ffa939;
+  font-size: 5em;
+  top: 20px;
+  box-shadow: 0 0 100px rgb(0, 0, 0);
+  padding: 20px;
+  font-family: cursive;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 40px;
+  
+}
+
+.titleShadow {
+  position: absolute;
+  color: #000000e7;
+  font-size: 5em;
+  top: 28px;
+  left: 110px;
+  padding: 20px;
+  font-family: cursive;
+  filter: blur(2px);
+ 
+  
+}
+
+.bake1 {
+  width: 1800px;
+  filter: blur(4px);
+}
+
+.discription {
+  position: absolute;
+  color: #fff7e8e0;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  background: rgba(255, 123, 0, 0.247);
+  top: 180px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.185);
 }
