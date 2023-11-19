@@ -4,6 +4,62 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(165, 122, 42);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 70px;
+  width: 60px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #ffffffa9;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+}
+
+nav ul ul li {
+  display: block;
+}
+
+nav ul ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+
 /* Set the font family and background color for the entire page */
 body {
   font-family: Arial, sans-serif;
